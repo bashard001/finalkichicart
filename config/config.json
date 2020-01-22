@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "aypb6bbrqtinaaya",
+    "password": "vab7dam0wvnu88z8",
+    "database": "xx6dse619w3mlvq5",
+    "host": "nba02whlntki5w2p.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "kitchenitems_db",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    
+    "dialect": "mysql"
+    
+  }
+}

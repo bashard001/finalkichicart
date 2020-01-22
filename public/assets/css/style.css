@@ -1,0 +1,47 @@
+/* .bg {
+    background-image: url(/assets/css/whiteKitchen.jpg);
+} */
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("/assets/css/whiteKitchen.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  background-color:#808080;
+}
+
+.navbar-toggler {
+  background-color: blue;
+
+}
+
+
+@import "bootstrap";
+
+.card-columns {
+    @include media-breakpoint-only(xl) {
+        column-count: 6;
+    }
+
+    @include media-breakpoint-only(lg) {
+        column-count: 5;
+    }
+
+    @include media-breakpoint-only(md) {
+        column-count: 3;
+    }
+
+    @include media-breakpoint-only(sm) {
+        column-count: 2;
+    }
+}
